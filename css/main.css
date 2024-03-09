@@ -38,7 +38,7 @@ main{
     align-items: start;
 }
 .write-btn{
-    background: #fe6f0f;
+  background-color: var(--button-primary);
     color: white;
     padding: 10px 15px 10px 15px;
     font-size: 15px;
@@ -46,5 +46,11 @@ main{
     position: fixed;
     bottom: 120px;
     right: 20px;
-    box-shadow: box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.write-btn:hover{
+    background-color: rgba(254,111,15,0.8);
 }
